@@ -18,20 +18,14 @@ public class Termostat {
         System.out.print("Ustaw temperature (przeskok co 0.5 stopnia C): ");
         ustawionaTemperatura = scanner.nextDouble();
 
-        sprawdzTemperature();
-
-    }
-
-    public void ustawTemperature(int _ustawionaTemperatura) throws Exception {
-        ustawionaTemperatura = _ustawionaTemperatura;
-
         if ((ustawionaTemperatura > 30) || (ustawionaTemperatura < 14)) {
             throw new Exception("Ustawiona temperatura nie może być wyższa niż 30 stopni ani, niższa niż 14 stopni");
+
         }
+
     }
 
     public void wlaczOgrzewanie(double zmiana) {
-
         zmiana = 0.5;
         aktualnaTemperatura = aktualnaTemperatura + zmiana;
 
@@ -62,6 +56,9 @@ public class Termostat {
         }
 
         if (aktualnaTemperatura < ustawionaTemperatura) {
+
+            System.out.println("Rozpoczynam grzanie...");
+
             double roznica = ustawionaTemperatura - aktualnaTemperatura;
 
             roznica = Math.abs(roznica);
