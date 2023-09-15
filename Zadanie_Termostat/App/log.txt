@@ -1,0 +1,12 @@
+Użytkownik ustawił aktualną temperature na: 20.0
+Użytkownik ustawił rządaną temperature na: 18.0
+Użytkownik ustawił tempo zmiany na: 0.25
+Włączono chłodzenie
+Aktualna temperatura: 19.75C 
+Aktualna temperatura: 19.5C 
+Aktualna temperatura: 19.25C 
+Aktualna temperatura: 19.0C 
+Aktualna temperatura: 18.75C 
+Aktualna temperatura: 18.5C 
+Aktualna temperatura: 18.25C 
+Aktualna temperatura: 18.0C 
