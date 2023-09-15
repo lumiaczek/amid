@@ -98,7 +98,7 @@ public class Termostat {
         System.out.print("Ustaw temperature: "); // ustawianie rządanej temperatury
         ustawionaTemperatura = scanner.nextDouble();
 
-        file.append("Użytkownik ustawił rządaną temperature na: " + ustawionaTemperatura + "\n");
+        file.append("Użytkownik ustawił żądaną temperature na: " + ustawionaTemperatura + "\n");
 
         if ((ustawionaTemperatura > 30) || (ustawionaTemperatura < 14)) { // Zabezpieczenie przed przegrzaniem lub
                                                                           // zmrożeniem pomieszczenia

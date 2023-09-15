@@ -1,5 +1,5 @@
 Użytkownik ustawił aktualną temperature na: 20.0
-Użytkownik ustawił rządaną temperature na: 18.0
+Użytkownik ustawił żądaną temperature na: 18.0
 Użytkownik ustawił tempo zmiany na: 0.25
 Włączono chłodzenie
 Aktualna temperatura: 19.75C 
