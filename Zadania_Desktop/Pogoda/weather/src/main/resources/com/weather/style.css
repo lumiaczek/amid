@@ -1,0 +1,18 @@
+#root {
+    -fx-background-color: #E8E9ED;
+}
+
+#title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+#temp {
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+}
+
+#city {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
